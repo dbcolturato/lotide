@@ -4,13 +4,13 @@ const reverseString = function(str) {
     newStr += str[i];
   }
   return newStr;
-}
+};
 
-const reverseAllStrings = function(arguments) {
+const reverseAllStrings = function(arg) {
   let newArray = [];
   let j = 0;
-  for (let i = 2; i < arguments.length; i++) {
-    newArray[j] = reverseString(arguments[i]);
+  for (let i = 2; i < arg.length; i++) {
+    newArray[j] = reverseString(arg[i]);
     j++;
   }
   return newArray;
